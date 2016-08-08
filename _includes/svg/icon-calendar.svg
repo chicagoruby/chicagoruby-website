@@ -1,0 +1,9 @@
+<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" aria-labelledby="title">
+  <title>
+    Calendar icon
+  </title>
+  <path
+    d="M13.6 2.4h-.85v1.7H10.2V2.4H5.1v1.7H2.55V2.4H1.7C.764 2.4 0 3.165 0 4.1v10.2c0 .935.764 1.7 1.7 1.7h11.9c.935 0 1.7-.765 1.7-1.7V4.1c0-.935-.765-1.7-1.7-1.7zm0 11.9H1.7V7.5h11.9v6.8zM4.675.7h-1.7v2.975h1.7V.7zm7.65 0h-1.7v2.975h1.7V.7z"
+    fill="#000"
+    fill-rule="evenodd"/>
+</svg>
