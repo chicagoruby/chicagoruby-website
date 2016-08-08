@@ -2,41 +2,41 @@
 layout: default
 ---
 
+<script>
+  function formatEvent(event) {
+    var date = moment(event.time).format('MMM D - ddd h:mm a');
+    var name = event.name.replace("ChicagoRuby: ", "");
+    var url = event.link;
+
+    insertHTML(name, date, url);
+  }
+
+  function insertHTML(name, date, url) {
+    $(".section-meetups ul").append(
+      "<li><p><b>" + name + "</b></p><p>" + date + "</p><p><a href=\"" + url + "\">Details &amp; RSVP</a></p></li>"
+    );
+  }
+
+  $(function() {
+    $.getJSON("https://api.meetup.com/chicagoruby/events?photo-host=public&page=20&sig_id=4954727&sig=d9fb93fddae45eb66b8028734ae3e58fb3b1e786", function(data) {
+      var events = data.slice(0,6);
+
+      for (var i = 0, l = events.length; i < l; i++) {
+        var event = events[i];
+        formatEvent(event);
+      }
+
+      $(".loading").hide();
+    });
+  });
+</script>
+
 <section class="section-meetups">
   <p>ChicagoRuby hosts free monthly meetings throughout
     downtown Chicago and the surrounding suburbs.</p>
 
   <ul>
-    <li>
-      <p class="date">Jun 18 - Sat 10:30am</p>
-      <p class="name">Elmhurst - How Do I Build… ?</p>
-      <a class="link" href="#">Details &amp; RSVP</a>
-    </li>
-    <li>
-      <p class="date">Jun 18 - Sat 10:30am</p>
-      <p class="name">Elmhurst - How Do I Build… ?</p>
-      <a class="link" href="#">Details &amp; RSVP</a>
-    </li>
-    <li>
-      <p class="date">Jun 18 - Sat 10:30am</p>
-      <p class="name">Elmhurst - How Do I Build… ?</p>
-      <a class="link" href="#">Details &amp; RSVP</a>
-    </li>
-    <li>
-      <p class="date">Jun 18 - Sat 10:30am</p>
-      <p class="name">Elmhurst - How Do I Build… ?</p>
-      <a class="link" href="#">Details &amp; RSVP</a>
-    </li>
-    <li>
-      <p class="date">Jun 18 - Sat 10:30am</p>
-      <p class="name">Elmhurst - How Do I Build… ?</p>
-      <a class="link" href="#">Details &amp; RSVP</a>
-    </li>
-    <li>
-      <p class="date">Jun 18 - Sat 10:30am</p>
-      <p class="name">Elmhurst - How Do I Build… ?</p>
-      <a class="link" href="#">Details &amp; RSVP</a>
-    </li>
+    <div class="loading">Loading events...</div>
   </ul>
 </section>
 
