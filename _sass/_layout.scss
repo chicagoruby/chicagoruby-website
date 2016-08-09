@@ -292,10 +292,10 @@ body > .page-wrap > header > nav {
     @media #{$medium-up} {
       float: left;
       width: 43.75%;
-      margin-bottom: 2.2rem;
+      margin-bottom: 1.5rem;
       margin-right: 2.5%;
       padding-left: 5%;
-      max-width: 10rem;
+      min-height: 6rem;
 
       &:nth-child(3n+3) {
         margin-right: 2.5%;
@@ -308,14 +308,15 @@ body > .page-wrap > header > nav {
 
     @media #{$large-up} {
       float: left;
-      width: 27.5%;
-      margin-bottom: 2rem;
-      margin-right: 2.5%;
+      width: 28%;
+      margin-bottom: 1rem;
+      margin-right: 2%;
       padding-left: 4%;
       max-width: auto;
+      min-height: 8rem;
 
       &:nth-child(even) {
-        margin-right: 2.5%;
+        margin-right: 2%;
       }
 
       &:nth-child(3n+3) {

@@ -4,7 +4,7 @@ layout: default
 
 <script>
   function formatEvent(event) {
-    var date = moment(event.time).format('MMM D - ddd h:mm a');
+    var date = moment(event.time).format('MMM D - ddd h:mma');
     var name = event.name.replace("ChicagoRuby: ", "");
     var url = event.link;
 
@@ -13,20 +13,20 @@ layout: default
 
   function insertHTML(name, date, url) {
     $(".section-meetups ul").append(
-      "<li><p><b>" + name + "</b></p><p>" + date + "</p><p><a href=\"" + url + "\">Details &amp; RSVP</a></p></li>"
+      "<li><p class=\"date\">" + date + "</p><p class=\"name\">" + name + "</p><a class=\"link\" href=\"" + url + "\">Details &amp; RSVP</a></li>"
     );
   }
 
   $(function() {
-    $.getJSON("https://api.meetup.com/chicagoruby/events?photo-host=public&page=20&sig_id=4954727&sig=d9fb93fddae45eb66b8028734ae3e58fb3b1e786", function(data) {
-      var events = data.slice(0,6);
+    $.getJSON("https://api.meetup.com/chicagoruby/events?photo-host=public&page=20&sig_id=4954727&sig=d9fb93fddae45eb66b8028734ae3e58fb3b1e786&callback=?", function(data) {
+      var events = data.data.slice(0,6);
 
       for (var i = 0, l = events.length; i < l; i++) {
         var event = events[i];
         formatEvent(event);
       }
 
-      $(".loading").hide();
+      $(".loading").remove();
     });
   });
 </script>
