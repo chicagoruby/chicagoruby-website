@@ -84,6 +84,23 @@ $large-only: "#{$screen} and (min-width:#{lower-bound($large-range)}) and (max-w
   transition: all 0.1s ease-in-out;
 }
 
+@mixin gray-box-right {
+  background-color: $gray-background;
+  margin-right: -200%;
+  padding-right: 200%;
+  margin-left: -2.5%;
+  padding-left: 2.5%;
+  
+}
+
+@mixin gray-box-left {
+  background-color: $gray-background;
+  margin-left: -200%;
+  padding-left: 200%;
+  margin-right: -2.5%;
+  padding-right: 2.5%;
+}
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
   "normalize",

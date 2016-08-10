@@ -34,10 +34,7 @@ body {
   font-weight: $base-font-weight;
   line-height: $base-line-height;
   color: $text-color;
-
-  @media #{$large-up} {
-  	overflow-x: hidden;
-  }
+	overflow-x: hidden;
 }
 
 .page-wrap {
@@ -181,6 +178,10 @@ body > .page-wrap > header > nav {
     &:hover {
       background-color: $hover-color;
     }
+  }
+
+  .nav-primary li.active a {
+    background-color: $black;
   }
 
   .nav-social {
@@ -777,4 +778,24 @@ body > .page-wrap > footer {
       text-align: right;
     }
   }
+}
+
+/* --------------------------
+ *  Secondary Pages
+ * -------------------------- */
+
+.secondary-page {
+  width: 90%;
+  margin: 1rem 0;
+  padding: 0 5%;
+}
+
+ /* -- About */
+
+.section-organizers {
+  @include gray-box-right;
+}
+
+.section-organizers-demo {
+  @include gray-box-left;
 }
