@@ -785,31 +785,37 @@ body > .page-wrap > footer {
  * -------------------------- */
 
 .secondary-page {
-  width: 90%;
-  margin: 1rem 0;
-  padding: 0 5%;
+  width: 95%;
+  margin: 1rem 2.5%;
+  position: relative;
 }
 
  /* -- About */
 
 .friday-hug {
   float: left;
-  width: 60%;
-  margin-right: -2.5%;
-  margin-left: -2.5%;
-  margin-bottom: 2rem;
+  width: 59%;
+  margin-bottom: 1rem;
+  padding: 0;
 }
 
 .section-about {
   float: left;
   width: 54%;
+  padding: 0 2.5%;
+}
+
+.section-about-conferences, .section-about-history {
+  float: left;
+  width: 95%;
+  padding: 0 2.5%;
 }
 
 .section-organizers {
   @include gray-box-right;
   padding-top: 0.5rem;
   float: right;
-  width: 38.138%;
+  width: 36%;
 
   h1 {
     margin-top: 0;
