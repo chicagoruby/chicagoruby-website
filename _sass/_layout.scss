@@ -831,6 +831,7 @@ body > .page-wrap > footer {
       width: 20%;
       padding-left: 1%;
       padding-right: 1%;
+      min-height: 7rem;
       text-align: center;
 
       @media #{$medium-up} {

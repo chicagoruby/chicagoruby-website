@@ -9,12 +9,16 @@ permalink: /about/
   <h1>Meet our Organizers</h1>
 
   <ul>
-    {% for num in (1...16) %}
+    {% for organizer in site.data.organizers["current"] %}
     <li>
-      <a href="http://twitter.com/rayhightower">
+      <a href="{{ organizer.link }}">
         <figure>
-          <img src="/assets/example-organizer.jpg" alt="Organizer Name">
-          <figcaption>Sample Organizer</figcaption>
+          {% if organizer.photo %}
+            <img src="/assets/organizers/{{ organizer.photo }}" alt="Photo of {{ organizer.name }}">
+          {% else %}
+            <img src="/assets/organizers/na.jpg" alt="Photo unavailable">
+          {% endif %}
+          <figcaption>{{ organizer.name }}</figcaption>
         </figure>
       </a>
     </li>
