@@ -18,8 +18,12 @@ main svg path {
   @include link-transition;
 }
 
-p {
+p, main li {
   font-size: 1.25rem;
+}
+
+li p {
+  margin: 0;
 }
 
 /* --- First Level Elements */
@@ -809,6 +813,15 @@ body > .page-wrap > footer {
   width: 95%;
   margin: 1rem 2.5%;
   position: relative;
+}
+
+.secondary-page-simple {
+  width: 90%;
+  padding: 0 2.5%;
+
+  @media #{$medium-up} {
+    width: 73%;
+  }
 }
 
  /* -- About */

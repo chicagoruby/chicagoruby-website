@@ -13,7 +13,7 @@ orientation, disability, physical appearance, body size, race, or religion.
 Sexual language and imagery is not appropriate for any event venue, including
 talks, workshops, the vendor hall, parties, Twitter and other online media.
 
-# What Defines Harassment?
+## What Defines Harassment?
 
 Harassment includes offensive verbal comments related to gender, age, sexual
 orientation, disability, physical appearance, body size, race, religion, sexual
@@ -25,7 +25,7 @@ Participants asked to stop any harassing behavior are expected to comply
 immediately. Any event participant who engages in harassing behavior may be
 asked to leave the event.
 
-# If You Need Help
+## If You Need Help
 
 If you are being harassed, notice that someone else is being harassed, or have
 any other concerns, please contact a member of the organizer team immediately.
@@ -36,7 +36,7 @@ or local law enforcement, or otherwise assist those experiencing harassment to
 feel safe for the duration of the event. We value your attendance and are
 committed to your safety and security.
 
-# Feedback
+## Feedback
 If you have questions or comments regarding our code of conduct, please email
 us at <script type="text/javascript">
 //&lt;![CDATA[

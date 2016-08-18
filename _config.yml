@@ -25,9 +25,14 @@ markdown: kramdown
 defaults:
   -
     scope:
-      path: "pages"
+      path: "pages/advanced"
     values:
-      layout: "page"
+      layout: "page-advanced"
+  -
+    scope:
+      path: "pages/simple"
+    values:
+      layout: "page-simple"
   -
     scope:
       path: "redirects"
