@@ -1,0 +1,18 @@
+- name: WisdomGroup
+  link: http://wisdomgroup.com
+  logo: wisdomgroup.png
+- name: ThoughtWorks
+  link: http://thoughtworks.com/
+  logo: thoughtworks.png
+- name: O'Reilly
+  link: http://oreilly.com/
+  logo: oreilly.png
+- name: DeForest Group
+  link: http://deforestgroup.com/
+  logo: deforest.png
+- name: The Pragmatic Programmers
+  link: http://pragprog.com/
+  logo: pragmatic.png
+- name: InformIT
+  link: http://www.informit.com
+  logo: informit.png

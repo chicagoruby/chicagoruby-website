@@ -1,6 +1,16 @@
 <footer>
   <section class="section-supporters">
     <p>Thank you to our generous supporters!</p>
+
+    <ul>
+      {% for supporter in site.data.supporters %}
+      <li>
+        <a href="{{ supporter.link }}">
+          <img src="/assets/supporters/{{ supporter.logo }}" alt="{{ supporter.name }}">
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
   </section>
 
   <p class="copyright">Copyright © 2016 ChicagoRuby.<br>

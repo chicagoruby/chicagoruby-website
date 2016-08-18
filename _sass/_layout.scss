@@ -768,12 +768,33 @@ body > .page-wrap > footer {
     p {
       margin-top: 0;
     }
+
+    ul {
+      @include no-bullet;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      align-items: center;
+      margin: 0;
+
+      li a {
+        display: block;
+        width: 6rem;
+        margin-right: 1rem;
+        margin-bottom: 0.4rem;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
   }
 
   .copyright {
     @media #{$small-up} {
       margin: 0;
-      width: 45%;
+      width: 50%;
       float: right;
       text-align: right;
     }
