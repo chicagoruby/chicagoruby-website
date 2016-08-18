@@ -4,6 +4,7 @@ permalink: /guidelines/
 ---
 
 # Speaking at ChicagoRuby Events
+
 Would you like to speak at a ChicagoRuby meeting or WindyCityRails conference?
 We welcome you! Of course, we have guidelines that we ask all of our presenters
 to follow. The guidelines ensure that:
@@ -58,5 +59,5 @@ and sponsors.
   John Nunemaker’s [Improve Your Presentations In Under $50](http://railstips.org/blog/archives/2010/05/05/improve-your-presentations-in-under-50/) article and Inc.’s
   [21 Quick Tips](http://www.inc.com/geoffrey-james/how-to-fix-your-presentations-21-tips.html).
 
-Questions? [Drop us a line.](/class) We look forward to seeing and hearing
+Questions? [Drop us a line.](/contact) We look forward to seeing and hearing
 your presentation!

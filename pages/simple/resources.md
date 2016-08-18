@@ -3,6 +3,11 @@ title: Resources
 permalink: /resources/
 ---
 
+# Speaker Resources
+
+Interested in speaking at a ChicagoRuby event?
+Please read our [speaker guidelines](/guidelines).
+
 # Ruby on Rails Resources
 
 The following list of Ruby on Rails resources was curated by a ChicagoRuby member, [Doug Harman](http://www.meetup.com/ChicagoRuby/members/61690512/), in August 2014.
