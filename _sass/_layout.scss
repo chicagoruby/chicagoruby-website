@@ -667,16 +667,16 @@ body > .page-wrap > header > nav {
       margin-bottom: 0.5rem;
     }
   }
+}
 
-  .more-videos {
-    font-weight: $weight-bold;
-    font-size: 1.2rem;
+.more-videos {
+  font-weight: $weight-bold;
+  font-size: 1.2rem;
 
-    svg {
-      position: relative;
-      top: 4px;
-      transform: scale(0.9);
-    }
+  svg {
+    position: relative;
+    top: 4px;
+    transform: scale(0.9);
   }
 }
 
@@ -934,11 +934,78 @@ body > .page-wrap > footer {
 /* -- Videos */
 
 .section-video-index {
-  @include gray-box-left;
+  background-color: transparent;
   margin-bottom: 1.5rem;
   width: 95%;
 
   @media #{$medium-up} {
     width: 54%;
+  }
+
+  .speaker-bio {
+    h4 {
+      margin-bottom: 0;
+    }
+
+    h4 + p {
+      margin-top: 0;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+  }
+}
+
+.section-more-videos {
+  @include gray-box-right;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+  @media #{$medium-up} {
+    margin-left: 61.5%;
+  }
+
+  h2 {
+    margin-top: 0;
+  }
+
+  ul {
+    @include no-bullet;
+
+    li {
+      overflow: hidden;
+      margin-bottom: 1rem;
+    }
+
+    li .thumbnail {
+      width: 7rem;
+      float: left;
+    }
+
+    li .link {
+      font-weight: $weight-bold;
+      font-size: 0.9rem;
+      line-height: 1.3;
+      padding-bottom: 0.3rem;
+      display: block;
+    }
+
+    li .date {
+      font-weight: $weight-light;
+      font-size: 0.8rem;
+    }
+
+    li .link, li .date {
+      padding-left: 7.5rem;
+    }
+  }
+}
+
+.section-videos-archive {
+  background-color: transparent;
+
+  @media #{$medium-up} {
+    margin-left: 0;
   }
 }
