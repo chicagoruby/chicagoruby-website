@@ -17,12 +17,13 @@ defaults:
     path: ''
     type: videos
   values:
-    title: 
-    vimeo_id: 
+    title:
+    vimeo_id:
+    youtube_id: 
     event: 'ChicagoRuby: Downtown'
-    teaser: 
-    speaker: 
-    speaker_bio: 
+    teaser:
+    speaker:
+    speaker_bio:
 - scope:
     path: pages/advanced
   values:
