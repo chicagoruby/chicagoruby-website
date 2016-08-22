@@ -28,6 +28,16 @@ collections:
     permalink: /videos/:path/
 
 defaults:
+  - scope:
+      path: ""
+      type: videos
+    values:
+      name:
+      vimeo_id:
+      event: "ChicagoRuby: Downtown"
+      teaser:
+      speaker:
+      speaker_bio:
   -
     scope:
       path: "pages/advanced"
