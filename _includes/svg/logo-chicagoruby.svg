@@ -1,7 +1,5 @@
 <svg width="375" height="140" viewBox="0 0 375 140" xmlns="http://www.w3.org/2000/svg" aria-labelledby="title">
-  <title>
-    ChicagoRuby
-  </title>
+  <title>ChicagoRuby</title>
   <g fill="none" fill-rule="evenodd">
     <path d="M261.45 22.85l22.4-10.342h16.966v49.84l-.003.007.003-.007v.003l-.003.005h-.002v-.002L263.264 24.67l-1.813-1.82zm39.366-10.342h16.966l22.396 10.342-1.814 1.82-37.548 37.68v-.002l.004-.007-.004.008v-49.84z" fill="#FFF"/>
     <path fill="#D1222B" d="M261.235 22.848l22.52-10.342h8.243l-11.636 10.342h-19.127"/>
