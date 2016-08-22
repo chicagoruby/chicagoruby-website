@@ -1,6 +1,6 @@
 ---
 title: Speaker Guidelines
-permalink: /guidelines/
+permalink: "/guidelines/"
 ---
 
 # Speaking at ChicagoRuby Events

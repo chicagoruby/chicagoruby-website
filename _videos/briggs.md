@@ -1,10 +1,14 @@
 ---
-name: "JavaScript for Rails"
+title: Briggs
+date: 2016-05-03 00:00:00 Z
+name: JavaScript for Rails
 vimeo_id: 165245445
-event: "ChicagoRuby: Downtown"
-teaser: "Front end JavaScript is a swampland of buzzwords, leaky abstractions, and complicated toolchains."
+event: 'ChicagoRuby: Downtown'
+teaser: Front end JavaScript is a swampland of buzzwords, leaky abstractions, and
+  complicated toolchains.
 speaker: Zach Briggs
-speaker_bio: "Zach Briggs is a JavaScript jockey at TableXI. He has spoken or taught workshops at RailsConf, CodeMash, Barcelona Ruby Conf, KalamazooX, and many more."
+speaker_bio: Zach Briggs is a JavaScript jockey at TableXI. He has spoken or taught
+  workshops at RailsConf, CodeMash, Barcelona Ruby Conf, KalamazooX, and many more.
 ---
 
 Front end JavaScript is a swampland of buzzwords, leaky abstractions, and complicated toolchains. Fortunately, there are some simple techniques developers can use to avoid the quagmire and build dynamic, modern user interfaces that solve human problems.

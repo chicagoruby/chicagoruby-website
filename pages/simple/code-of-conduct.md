@@ -1,6 +1,6 @@
 ---
 title: Code of Conduct
-permalink: /code-of-conduct
+permalink: "/code-of-conduct"
 ---
 
 # ChicagoRuby Code of Conduct

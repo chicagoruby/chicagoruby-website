@@ -1,6 +1,6 @@
 ---
 title: Organizers
-permalink: /organizers/
+permalink: "/organizers/"
 ---
 
 # Organizer Alumni
