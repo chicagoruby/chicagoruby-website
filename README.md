@@ -4,18 +4,18 @@ ChicagoRuby web site, built in Jekyll.
 
 ## Collections
 
-This site has three collection types:
+This site has one collection types:
 
 * Videos
-* Partners 
-
-A combination of YAML front matter and folder structures determines the grouping and ordering of content.
 
 ## Data Files
 
-Organizer information is stored in Jekyll Data Files in YAML format.
+This site has two Jekyll Data Files, stored in YAML format.
+
+* Organizers
+* Supporters
 
 ## Asset Sizing
 
-* **Sponsor Logos:** 400 pixels wide
+* **Supporter Logos:** 400 pixels wide
 * **Organizer Photos:** 400 pixels squared
