@@ -1,7 +1,6 @@
 ---
-title: Muthupalaniappan
+title: Presenters and View Models in Rails
 date: 2016-04-05 00:00:00 Z
-name: Presenters and View Models in Rails
 vimeo_id: 161715015
 event: 'ChicagoRuby: Downtown'
 teaser: This talk will explore how view models and presenters can serve as a cleaner

@@ -1,7 +1,6 @@
 ---
-title: Teotti
+title: How to Build and Maintain Large Ruby Apps
 date: 2016-07-05 00:00:00 Z
-name: How to Build and Maintain Large Ruby Apps
 vimeo_id: 173565199
 event: 'ChicagoRuby: Downtown'
 teaser: Building and maintaining large Ruby apps . . . Oh, the challenges!

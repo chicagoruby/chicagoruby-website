@@ -9,6 +9,6 @@
   {% if video.youtube_id %}
     <a href="{{ video.url }}"><img class="thumbnail" src="https://img.youtube.com/vi/{{ video.youtube_id }}/default.jpg"></a>
   {% endif %}
-  <a class="link" href="{{ video.url }}">{{ video.name }} by {{ video.speaker }}</a>
+  <a class="link" href="{{ video.url }}">{{ video.title }} by {{ video.speaker }}</a>
   <p class="date">{{ video.date | date: '%B %d, %Y' }}</p>
 </li>

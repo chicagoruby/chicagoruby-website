@@ -1,7 +1,6 @@
 ---
-title: Rabovsky
+title: 'Number Theory: Why Cryptography Works'
 date: 2016-08-02 00:00:00 Z
-name: 'Number Theory: Why Cryptography Works'
 vimeo_id: 177394939
 event: 'ChicagoRuby: Downtown'
 teaser: Why does cryptography actually work?

@@ -1,7 +1,6 @@
 ---
-title: Briggs
+title: JavaScript for Rails
 date: 2016-05-03 00:00:00 Z
-name: JavaScript for Rails
 vimeo_id: 165245445
 event: 'ChicagoRuby: Downtown'
 teaser: Front end JavaScript is a swampland of buzzwords, leaky abstractions, and

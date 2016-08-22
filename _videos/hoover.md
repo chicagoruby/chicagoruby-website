@@ -1,7 +1,6 @@
 ---
-title: Hoover
+title: A Rubyist's Journey into Ethereum
 date: 2016-06-07 00:00:00 Z
-name: A Rubyist's Journey into Ethereum
 vimeo_id: 169908539
 event: 'ChicagoRuby: Downtown'
 teaser: Fundamentals of Ethereum, and a demonstration of Solidity, the most popular
