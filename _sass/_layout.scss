@@ -615,7 +615,7 @@ body > .page-wrap > header > nav {
     float: left;
     margin-top: 0;
     margin-left: 0;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0;
     padding-right: 2.5%;
   }
 
@@ -633,41 +633,49 @@ body > .page-wrap > header > nav {
   h3 {
     margin: 0.2rem 0 0 0;
     font-family: $museo-sans-family;
-    font-size: 2.2rem;
+    font-size: 1.8rem;
     line-height: 1.2;
   }
 
   .date {
     margin: 0;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
 
   .video-embed {
-    margin: 1em 0;
-    width: 100%;
+    margin: 0.5em 0;
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
 
-    img {
+    iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
       width: 100%;
-      position: relative;
-      height: auto;
+      height: 100%;
     }
   }
 
   .description {
-    font-size: 1.3rem;
-    margin-top: 0;
-    margin-bottom: 0.7rem;
+    p {
+      font-size: 1rem;
+    }
+
+    p:last-child {
+      margin-bottom: 0.5rem;
+    }
   }
 
   .more-videos {
     font-weight: $weight-bold;
-    font-size: 1.4rem;
-    margin-left: 0.2rem;
+    font-size: 1.2rem;
 
     svg {
       position: relative;
-      top: 2px;
-      transform: scale(1.1);
+      top: 4px;
+      transform: scale(0.9);
     }
   }
 }
@@ -691,12 +699,14 @@ body > .page-wrap > header > nav {
 
   > p {
     font-size: 1.25rem;
-    margin-top: 0;
+    margin: 0.3rem 0;
   }
 
   ul {
     @include no-bullet;
     overflow: hidden;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   li a {
@@ -741,7 +751,7 @@ body > .page-wrap > header > nav {
 
     @media #{$medium-up} {
       width: 100%;
-      margin: 1rem 0;
+      margin: 1.5rem 0;
       min-height: inherit;
       float: none;
       display: block;
@@ -919,4 +929,16 @@ body > .page-wrap > footer {
 
 .section-about-conferences {
   clear: both;
+}
+
+/* -- Videos */
+
+.section-video-index {
+  @include gray-box-left;
+  margin-bottom: 1.5rem;
+  width: 95%;
+
+  @media #{$medium-up} {
+    width: 54%;
+  }
 }

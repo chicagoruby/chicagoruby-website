@@ -4,22 +4,27 @@ permalink: /videos/
 ---
 
 {% assign video = site.videos.last %}
-<section class="section-video">
+<section class="section-video section-video-index">
   <h2>{% include svg/icon-video.svg %} Latest Event Video</h2>
   <h3><a href="{{ video.url }}">{{ video.name }} by {{ video.speaker }}</a></h3>
   <p class="date">Recorded {{ video.date | date: '%B %d, %Y' }} at {{ video.event }}</p>
 
   <div class="video-embed">
-    <iframe class="vimeo_embed"
-      src="http://player.vimeo.com/video/{{ video.vimeo_id }}"
-      frameborder="0" webkitAllowFullScreen
-      mozallowfullscreen allowFullScreen>
-    </iframe>
+    {% if video.youtube_id %}
+      <iframe class="youtube_embed"
+        src="https://www.youtube.com/embed/{{ video.youtube_id }}"
+        frameborder="0" allowfullscreen>
+      </iframe>
+    {% else %}
+      <iframe class="vimeo_embed"
+        src="http://player.vimeo.com/video/{{ video.vimeo_id }}"
+        frameborder="0" webkitAllowFullScreen
+        mozallowfullscreen allowFullScreen>
+      </iframe>
+    {% endif %}
   </div>
 
-  <p class="description">{{ video.content }}</p>
-
-  <a class="more-videos" href="/videos">
-    {% include svg/icon-arrow.svg %} More Videos
-  </a>
+  <div class="description">
+    {{ video.content | markdownify }}
+  </div>
 </section>

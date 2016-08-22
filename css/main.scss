@@ -87,16 +87,16 @@ $large-only: "#{$screen} and (min-width:#{lower-bound($large-range)}) and (max-w
 @mixin gray-box-right {
   background-color: $gray-background;
   margin-right: -200%;
-  padding-right: 200%;
+  padding-right: 202.5%;
   margin-left: -2.5%;
   padding-left: 2.5%;
-  
+
 }
 
 @mixin gray-box-left {
   background-color: $gray-background;
   margin-left: -200%;
-  padding-left: 200%;
+  padding-left: 202.5%;
   margin-right: -2.5%;
   padding-right: 2.5%;
 }
