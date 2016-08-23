@@ -2,8 +2,9 @@
 title: Anatomy of a DDoS Attack & Adventures of the Packet
 date: 2015-03-03 00:00:00 Z
 vimeo_id: 121266718
-event: 'ChicagoRuby Downtown'
-teaser: First, get a general idea of the scope of a DDoS attack. Then trace a request from the browser address bar to the server and back.
+event: ChicagoRuby Downtown
+teaser: First, get a general idea of the scope of a DDoS attack. Then trace a request
+  from the browser address bar to the server and back.
 speaker: Aaron Kalin
 speaker_bio: Aaron Kalin is a software engineer at DNSimple.
 ---

@@ -2,8 +2,11 @@
 title: Meteor
 date: 2013-02-06 00:00:00 Z
 vimeo_id: 59044054
-event: 'ChicagoRuby Downtown (Braintree)'
-teaser: Many web developers came to Ruby through Rails. Ever since Rails came out, the watch has been on for the "Rails of X". Meteor (http://meteor.com/) may be the Rails of JavaScript, and it's not unreasonable to expect some ideas coming full circle back to Ruby on Rails in the future.
+event: ChicagoRuby Downtown (Braintree)
+teaser: Many web developers came to Ruby through Rails. Ever since Rails came out,
+  the watch has been on for the "Rails of X". Meteor (http://meteor.com/) may be the
+  Rails of JavaScript, and it's not unreasonable to expect some ideas coming full
+  circle back to Ruby on Rails in the future.
 speaker: Pallavi Anderson
 speaker_bio: Presented by Pallavi Anderson [@pkaushik](http://twitter.com/pkaushik)
 ---
