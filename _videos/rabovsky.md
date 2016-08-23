@@ -12,7 +12,4 @@ speaker_bio: Jeffrey Rabovsky is a DevOps Engineer at Jellyvision. He has been i
   microcontrollers and embedded systems, but today he mostly writes server-side code.
 ---
 
-Why does cryptography actually work? Cryptography is based on number theory.
-This presentation will touch on things like: what Number Theory is, why primes
-are important, why factoring is hard, how this allows us to build cryptosystems
-(e.g. RSA), and maybe some unsolved problems (there are many!) in Number Theory.
+Why does cryptography actually work? Cryptography is based on number theory. This presentation will touch on things like: what Number Theory is, why primes are important, why factoring is hard, how this allows us to build cryptosystems (e.g. RSA), and maybe some unsolved problems (there are many!) in Number Theory.
