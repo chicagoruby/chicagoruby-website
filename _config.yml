@@ -17,13 +17,13 @@ defaults:
     path: ''
     type: videos
   values:
-    title: 
-    vimeo_id: 
-    youtube_id: 
+    title:
+    vimeo_id:
+    youtube_id:
     event: 'ChicagoRuby: Downtown'
-    teaser: 
-    speaker: 
-    speaker_bio: 
+    teaser:
+    speaker:
+    speaker_bio:
 - scope:
     path: pages/advanced
   values:
@@ -44,9 +44,9 @@ defaults:
 email: organizers@chicagoruby.org
 description: |
   ChicagoRuby is a group of developers & designers who use Ruby, Rails, and related tech.
-baseurl: 
+baseurl:
 url: https://chicagoruby.org
-medium_username: chicagoruby
+medium_username: '@chicagoruby'
 facebook_username: chicagoruby
 twitter_username: chicagoruby
 vimeo_username: chicagoruby
