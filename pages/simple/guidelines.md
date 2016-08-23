@@ -1,7 +1,6 @@
 ---
 title: Speaker Guidelines
 permalink: "/guidelines/"
-position: 3
 ---
 
 # Speaking at ChicagoRuby Events

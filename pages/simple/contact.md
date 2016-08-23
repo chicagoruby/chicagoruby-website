@@ -1,7 +1,6 @@
 ---
 title: Contact
 permalink: "/contact/"
-position: 0
 ---
 
 # Contact ChicagoRuby

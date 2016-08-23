@@ -1,7 +1,6 @@
 ---
 title: Code of Conduct
 permalink: "/code-of-conduct"
-position: 1
 ---
 
 # ChicagoRuby Code of Conduct

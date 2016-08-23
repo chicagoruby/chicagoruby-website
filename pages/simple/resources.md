@@ -1,7 +1,6 @@
 ---
 title: Resources
 permalink: "/resources/"
-position: 4
 ---
 
 # Speaker Resources
