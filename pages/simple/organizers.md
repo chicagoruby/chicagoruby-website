@@ -1,6 +1,7 @@
 ---
 title: Organizers
 permalink: "/organizers/"
+position: 2
 ---
 
 # Organizer Alumni
