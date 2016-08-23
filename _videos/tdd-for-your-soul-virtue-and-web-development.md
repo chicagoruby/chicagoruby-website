@@ -1,6 +1,6 @@
 ---
 title: 'TDD for Your Soul: Virtue and Web Development'
-date: 2016-08-20 00:00:00 Z
+date: 2014-04-01 00:00:00 Z
 vimeo_id: 90767074
 teaser: Web development pushes us to our limits, not only of cognition, but of character.
 speaker: Abraham Sangha
