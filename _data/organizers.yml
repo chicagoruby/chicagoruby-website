@@ -1,4 +1,7 @@
 current:
+  - name: Ray Hightower
+    link: http://rayhightower.com
+    photo: ray_hightower.jpg
   - name: Ginny Hendry
     link: http://twitter.com/ginnyhendry
     photo: ginny_hendry.jpg
@@ -37,9 +40,9 @@ current:
   - name: Daniel Rench
     link: http://www.meetup.com/ChicagoRuby/members/11715177/
     photo: daniel_rench.jpg
-  - name: Ray Hightower
-    link: http://rayhightower.com
-    photo: ray_hightower.jpg
+  - name: Kenneth Watkins
+    link: https://twitter.com/kennethjulian
+    photo: kenneth_watkins.jpg
 past:
   - name: Steve Rummel
     link: http://www.meetup.com/ChicagoRuby/members/3035910/
