@@ -935,6 +935,7 @@ body > .page-wrap > footer {
 
 .section-video-index {
   background-color: transparent;
+  margin-left: 0;
   margin-bottom: 1.5rem;
   width: 95%;
 
@@ -961,6 +962,7 @@ body > .page-wrap > footer {
   @include gray-box-right;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  margin-left: 0;
 
   @media #{$medium-up} {
     margin-left: 61.5%;
