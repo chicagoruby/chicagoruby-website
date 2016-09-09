@@ -1,6 +1,6 @@
 ---
 title: RubyMine's Jewels
-date: 2016-09-09 03:02:00 Z
+date: 2016-09-06 03:02:00 Z
 vimeo_id: 181778126
 teaser: Learn tips and tricks with RubyMine.
 speaker: Malcolm Newsome
