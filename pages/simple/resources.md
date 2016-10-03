@@ -5,7 +5,7 @@ permalink: "/resources/"
 
 # Speaker Resources
 
-Interested in speaking at a ChicagoRuby event? Please read our [speaker guidelines](/guidelines).
+Interested in speaking at a ChicagoRuby event? Please read our [speaker guidelines](/about/speaker-guidelines).
 
 # Ruby on Rails Resources
 

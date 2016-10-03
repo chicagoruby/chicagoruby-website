@@ -5,7 +5,7 @@ permalink: "/about/speaker-guidelines/"
 
 # Speaking at ChicagoRuby Events
 
-Would you like to speak at a ChicagoRuby meeting or WindyCityRails conference? We welcome you! Of course, we have guidelines that we ask all of our presenters to follow. The guidelines ensure that:
+Would you like to speak at a ChicagoRuby meeting or [WindyCityRails](http://windycityrails.com) conference? We welcome you! Of course, we have guidelines that we ask all of our presenters to follow. The guidelines ensure that:
 
 - ChicagoRuby members receive value from every presentation.
 - Speakers receive value through interaction with our members.
