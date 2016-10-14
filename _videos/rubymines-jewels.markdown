@@ -4,7 +4,7 @@ date: 2016-09-06 03:02:00 Z
 vimeo_id: 181778126
 teaser: Learn tips and tricks with RubyMine.
 speaker: Malcolm Newsome
-Key: 181778126
+speaker_bio: Malcolm Newsome is a software crafter with 8th Light.
 ---
 
 When writing Ruby code, some developers prefer Vim or Emacs, while others prefer a full-blown integrated development environment (IDE) complete with debugger. This video will share tips and tricks with RubyMine.
