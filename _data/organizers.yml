@@ -8,9 +8,6 @@ current:
   - name: Justin Love
     link: http://twitter.com/wondible
     photo: justin_love.jpg
-  - name: Alonda McCree
-    link: http://twitter.com/themccreefiles
-    photo: alonda_mccree.jpg
   - name: Marty Lavin
     link: http://www.meetup.com/ChicagoRuby/members/1345203/
     photo: marty_lavin.jpg
@@ -47,6 +44,9 @@ current:
   - name: Kenneth Watkins
     link: https://twitter.com/kennethjulian
     photo: kenneth_watkins.jpg
+  - name: Breanna Reader
+    link: http://www.meetup.com/ChicagoRuby/members/214943981/
+    photo: breanna_reader.jpg
 past:
   - name: Steve Rummel
     link: http://www.meetup.com/ChicagoRuby/members/3035910/
