@@ -1,5 +1,6 @@
 ---
 title: ETLS - Not Just for Enterprise
+date: 2016-10-04 14:00:00 Z
 vimeo_id: 185588160
 event: 'ChicagoRuby: Downtown'
 teaser: This talk will walk through basic ETL and dimensional modeling concepts applied
