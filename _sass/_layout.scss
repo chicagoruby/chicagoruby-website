@@ -761,6 +761,55 @@ body > .page-wrap > header > nav {
   li:last-child a {
     margin-right: 0;
   }
+
+  li.supporter-8thlight {
+    a {
+      margin-top: 0;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      align-items: center;
+
+      @media #{$small-only} {
+        padding: 0.61em 0;
+      }
+    }
+
+    svg {
+      height: 90px;
+      margin-left: 0.5em;
+
+      @media #{$small-up} {
+        flex-shrink: 1;
+      }
+
+      @media #{$medium-up} {
+        flex-shrink: 2;
+      }
+    }
+
+    .description {
+      @media #{$small-up} {
+        flex-shrink: 2;
+      }
+
+      @media #{$medium-up} {
+        flex-shrink: 1;
+      }
+    }
+
+    p {
+
+    }
+
+    p:first-of-type {
+      font-weight: $weight-bold;
+    }
+
+    p:last-of-type {
+      font-size: 0.9rem;
+    }
+  }
 }
 
 body > .page-wrap > footer {
