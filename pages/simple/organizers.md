@@ -3,12 +3,9 @@ title: Organizers
 permalink: "/organizers/"
 ---
 
-# Organizer Alumni
-
-ChicagoRuby is made possible thanks to the hard work of our volunteer organizers!
-
 <section class="section-about">
 <h1>Organizer Alumni</h1>
+<p>The ChicagoRuby organizers work hard to deliver multiple meetups every month of the year. Thank you organizers! ChicagoRuby is made possible thanks to the hard work of our volunteer organizers!</p>
   <ul>
     {% for organizer in site.data.organizers["past"] %}
     <li><a href="{{organizer.link}}">{{organizer.name}}</a></li>
@@ -35,6 +32,4 @@ ChicagoRuby is made possible thanks to the hard work of our volunteer organizers
     </li>
     {% endfor %}
   </ul>
-
-  <p class="alumni"><a href="/organizers">Organizer Alumni</a></p>
 </section>
