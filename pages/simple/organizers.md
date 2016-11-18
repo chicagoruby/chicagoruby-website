@@ -3,7 +3,7 @@ title: Organizers
 permalink: "/organizers/"
 ---
 
-<section class="section-about">
+<section class="section-about section-about-history">
 <h1>Organizer Alumni</h1>
 <p>The ChicagoRuby organizers work hard to deliver multiple meetups every month of the year. Thank you organizers! ChicagoRuby is made possible thanks to the hard work of our volunteer organizers!</p>
   <ul>
@@ -32,4 +32,17 @@ permalink: "/organizers/"
     </li>
     {% endfor %}
   </ul>
+</section>
+
+<section class="section-about-conferences">
+  <h1>Annual Conferences</h1>
+
+  <p>In addition to our monthly events, ChicagoRuby produces multiple annual
+    conferences. <a href="https://windycityrails.com">WindyCityRails</a>,
+    Chicago’s Ruby on Rails conference, started in 2008 to fill what had been a
+    void of Ruby conferences in the midwest. In 2015, ChicagoRuby produced the
+    inaugural <a href="https://windycitythings.com">WindyCityThings</a>, a
+    conference focused on the Internet of Things (IoT). We’re also currently in
+    the planning stages for <a href="http://rubycaribe.com">RubyCaribe</a>, a
+    Ruby conference with deep-dive lab session in Barbados.</p>
 </section>
