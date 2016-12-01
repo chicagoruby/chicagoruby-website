@@ -29,9 +29,6 @@ current:
   - name: Spencer Carvill
     link: http://www.meetup.com/ChicagoRuby/members/179505712/
     photo: spencer_carvill.jpg
-  - name: LaToya Allen
-    link: https://twitter.com/HashtagLaToya
-    photo: latoya_allen.jpg
   - name: Stu Gerstein
     link: http://www.meetup.com/ChicagoRuby/members/13463131/
     photo: stu_gerstein.jpg
@@ -106,3 +103,5 @@ past:
     link: https://twitter.com/bobbyreys
   - name: Alonda McCree
     link: https://www.meetup.com/ChicagoRuby/members/73426392/
+  - name: LaToya Allen
+    link: https://twitter.com/HashtagLaToya
