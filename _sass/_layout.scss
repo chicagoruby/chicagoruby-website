@@ -276,9 +276,15 @@ body > .page-wrap > header > nav {
     @include no-bullet;
     overflow: hidden;
     width: 100%;
+    display: flex;
+    flex-flow: column wrap;
 
     @media #{$medium-only} {
       margin-top: 3rem;
+    }
+
+    @media #{$medium-up} {
+      flex-flow: row wrap;
     }
   }
 
@@ -288,7 +294,6 @@ body > .page-wrap > header > nav {
     background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBhcmlhLWxhYmVsbGVkYnk9InRpdGxlIj4KICA8dGl0bGU+CiAgICBDYWxlbmRhciBpY29uCiAgPC90aXRsZT4KICA8cGF0aAogICAgZD0iTTEzLjYgMi40aC0uODV2MS43SDEwLjJWMi40SDUuMXYxLjdIMi41NVYyLjRIMS43Qy43NjQgMi40IDAgMy4xNjUgMCA0LjF2MTAuMmMwIC45MzUuNzY0IDEuNyAxLjcgMS43aDExLjljLjkzNSAwIDEuNy0uNzY1IDEuNy0xLjdWNC4xYzAtLjkzNS0uNzY1LTEuNy0xLjctMS43em0wIDExLjlIMS43VjcuNWgxMS45djYuOHpNNC42NzUuN2gtMS43djIuOTc1aDEuN1YuN3ptNy42NSAwaC0xLjd2Mi45NzVoMS43Vi43eiIKICAgIGZpbGw9IiMwMDAiCiAgICBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz4KPC9zdmc+Cg==") no-repeat 0 2.5px;
 
     @media #{$small-up} {
-      float: left;
       width: 28.665%;
       margin-right: 2.5%;
       padding-left: 3%;
@@ -299,7 +304,6 @@ body > .page-wrap > header > nav {
     }
 
     @media #{$medium-up} {
-      float: left;
       width: 43.75%;
       margin-bottom: 1.5rem;
       margin-right: 2.5%;
@@ -316,7 +320,6 @@ body > .page-wrap > header > nav {
     }
 
     @media #{$large-up} {
-      float: left;
       width: 28%;
       margin-bottom: 1rem;
       margin-right: 2%;
