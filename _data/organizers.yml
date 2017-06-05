@@ -11,9 +11,6 @@ current:
   - name: Marty Lavin
     link: http://www.meetup.com/ChicagoRuby/members/1345203/
     photo: marty_lavin.jpg
-  - name: Sarah Cnota
-    link: http://www.meetup.com/ChicagoRuby/members/13059934/
-    photo: sarah_cnota.jpg
   - name: Doug Harman
     link: http://www.meetup.com/ChicagoRuby/members/61690512/
     photo: doug_harman.jpg
@@ -23,21 +20,12 @@ current:
   - name: Sterling Hankins
     link: http://www.meetup.com/ChicagoRuby/members/25308002/
     photo: sterling_hankins.jpg
-  - name: Louis Knapp
-    link: http://www.meetup.com/ChicagoRuby/members/191892448/
-    photo: louis_knapp.jpg
   - name: Spencer Carvill
     link: http://www.meetup.com/ChicagoRuby/members/179505712/
     photo: spencer_carvill.jpg
-  - name: Stu Gerstein
-    link: http://www.meetup.com/ChicagoRuby/members/13463131/
-    photo: stu_gerstein.jpg
   - name: Tommaso Bufano
     link: https://twitter.com/tbufano
     photo: tommaso_bufano.jpg
-  - name: Daniel Rench
-    link: http://www.meetup.com/ChicagoRuby/members/11715177/
-    photo: daniel_rench.jpg
   - name: Kenneth Watkins
     link: https://twitter.com/kennethjulian
     photo: kenneth_watkins.jpg
@@ -50,6 +38,15 @@ current:
   - name: Ola Giwa
     link: https://twitter.com/AmazingSpeciali
     photo: ola_giwa.jpg
+  - name: Daniel Rench
+    link: http://www.meetup.com/ChicagoRuby/members/11715177/
+    photo: daniel_rench.jpg
+  - name: Stu Gerstein
+    link: http://www.meetup.com/ChicagoRuby/members/13463131/
+    photo: stu_gerstein.jpg
+  - name: Martha Amo
+    link: https://www.linkedin.com/in/marthamamo/
+    photo: martha_amo.jpg
 past:
   - name: Steve Rummel
     link: http://www.meetup.com/ChicagoRuby/members/3035910/
@@ -99,8 +96,6 @@ past:
     link: http://www.meetup.com/ChicagoRuby/members/135529442/
   - name: Hugo Corbucci
     link: http://twitter.com/hugocorbucci
-  - name: James Courtois
-    link: http://www.meetup.com/ChicagoRuby/members/130532612/
   - name: Dexter Teng
     link: http://www.meetup.com/ChicagoRuby/members/185776457/
   - name: Tonya Johnson
@@ -111,3 +106,9 @@ past:
     link: https://www.meetup.com/ChicagoRuby/members/73426392/
   - name: LaToya Allen
     link: https://twitter.com/HashtagLaToya
+  - name: Sarah Cnota
+    link: http://www.meetup.com/ChicagoRuby/members/13059934/
+  - name: James Courtois
+    link: http://www.meetup.com/ChicagoRuby/members/130532612/
+  - name: Louis Knapp
+    link: http://www.meetup.com/ChicagoRuby/members/191892448/
