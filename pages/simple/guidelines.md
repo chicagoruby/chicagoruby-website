@@ -27,11 +27,13 @@ We want all stakeholders to benefit from ChicagoRuby: Attendees, presenters, and
    interactively. Your call!
 9. Additional polish. For more tips on creating a great presentation, check out John Nunemaker's [Improve Your Presentations In Under $50](http://railstips.org/blog/archives/2010/05/05/improve-your-presentations-in-under-50/) article and Inc.'s [21 Quick Tips](http://www.inc.com/geoffrey-james/how-to-fix-your-presentations-21-tips.html).
 
-## Typical meeting agenda:
+## Typical Meeting Agenda
+
+Most ChicagoRuby meetings (except hack nights) follow this agenda:
+
    * [30 minutes] Networking + eating refreshments (if provided).
    * [45 minutes] Speaker presentation + Q&A
-   * [? minutes] The crowd heads to a local restaurant for
-   after-the-meeting discussion.
+   * [? minutes] The crowd heads to a local restaurant for after-the-meeting conversations.
 
 
 Questions? [Drop us a line.](/contact) We look forward to seeing and hearing your presentation!
