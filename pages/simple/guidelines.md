@@ -35,5 +35,4 @@ Most ChicagoRuby meetings (except hack nights) follow this agenda:
    * [45 minutes] Speaker presentation + Q&A
    * [? minutes] The crowd heads to a local restaurant for after-the-meeting conversations.
 
-
 Questions? [Drop us a line.](/contact) We look forward to seeing and hearing your presentation!
