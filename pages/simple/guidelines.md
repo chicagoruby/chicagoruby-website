@@ -21,10 +21,15 @@ We want all stakeholders to benefit from ChicagoRuby: Attendees, presenters, and
 4. Your product should work on Mac OS X or Linux. It can work on Windows, too, but bear in mind that the overwhelming majority of our community is Mac-based, and enjoys being so. If your product is primarily Windows-based, chances are your product isn't a good fit for ChicagoRuby.
 5. Use high-contrast presentation slides. If you use Keynote/PowerPoint slides in your presentation, make them high-contrast. Our presentation room is brightly lit and we have no control over the lighting. Dark characters on a black background will render your presentation invisible to the audience. Black letters on a white background will give you great visibility. You can experiment with other colors if you like, but the end result should be high-contrast, or your presentation will be invisible. If you use Vim, the [:TOhtml tool](http://rayhightower.com/blog/2013/10/31/tohtml-using-vim-code-snippets-in-keynote-presentations/) will keep syntax highlighting intact as you [copy code from Vim to Keynote](http://rayhightower.com/blog/2013/10/31/tohtml-using-vim-code-snippets-in-keynote-presentations/). Other editors have similar tools.
 6. Remember your display adapter. Our projector is HDMI. You will need a [your laptop display port]-to-HDMI adapter in order to connect to the projector. It's almost funny: After putting so many hours into an outstanding presentation, many presenters forget to bring the right display adapter! It's a small detail, very easy to miss, and that's why we mention it here.
-7. We record most of our presentations on video. [Videos are shared on the web.](http://vimeo.com/chicagoruby/channels) You're welcome to use the video on your own blog or web site.
+7. We record many of our presentations on video. [Videos are shared on the web.](http://vimeo.com/chicagoruby/channels) You're welcome to use the video on your own blog or web site.
 8. Presentations last for **45 minutes**. You can do 30 minutes of speaking
    followed by 15 minutes of Q & A, or you can use the entire 45 minutes
    interactively. Your call!
-9. Additional polish. For more tips on creating a great presentation, check out John Nunemaker's [Improve Your Presentations In Under $50](http://railstips.org/blog/archives/2010/05/05/improve-your-presentations-in-under-50/) article and Inc.'s [21 Quick Tips](http://www.inc.com/geoffrey-james/how-to-fix-your-presentations-21-tips.html).
+9. Typical meeting agenda:
+   * [30 minutes] Networking + eating refreshments (if provided).
+   * [45 minutes] Speaker presentation + Q&A
+   * [? meeting] The crowd heads to a local bar or restaurant for
+   after-the-meeting discussion.
+10. Additional polish. For more tips on creating a great presentation, check out John Nunemaker's [Improve Your Presentations In Under $50](http://railstips.org/blog/archives/2010/05/05/improve-your-presentations-in-under-50/) article and Inc.'s [21 Quick Tips](http://www.inc.com/geoffrey-james/how-to-fix-your-presentations-21-tips.html).
 
 Questions? [Drop us a line.](/contact) We look forward to seeing and hearing your presentation!
