@@ -35,4 +35,24 @@ Most ChicagoRuby meetings (except hack nights) follow this agenda:
    * [45 minutes] Speaker presentation + Q&A
    * [? minutes] The crowd heads to a local restaurant for after-the-meeting conversations.
 
-Questions? [Drop us a line.](/contact) We look forward to seeing and hearing your presentation!
+## Next Steps
+
+If your talk fits the guidelines and you're ready to go...
+
+1. Visit the [ChicagoRuby Calendar](https://www.meetup.com/ChicagoRuby/events/) and pick a few dates when you would like to present.&nbsp;<br/>&nbsp;
+
+2. Contact the [ChicagoRuby Organizers](/contact) with the following info:
+* Your name
+* A link to your Twitter handle, personal web site, GitHub page, or
+other page where you want the audience to learn more about you.
+* Title of your presentation
+* Brief description of your presentation (about 100 words).
+* Brief bio (about 100 words) about you.
+
+## Questions?
+
+[Drop us a line.](/contact) We look forward to seeing and hearing your presentation!
+&nbsp;<br/>
+&nbsp;<br/>
+&nbsp;<br/>
+&nbsp;<br/>
