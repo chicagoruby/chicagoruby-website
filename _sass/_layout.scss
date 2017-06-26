@@ -765,7 +765,7 @@ body > .page-wrap > header > nav {
     margin-right: 0;
   }
 
-  li.supporter-8thlight {
+  li.supporter-columns {
     a {
       margin-top: 0;
       display: flex;
@@ -801,16 +801,14 @@ body > .page-wrap > header > nav {
       }
     }
 
-    p {
-
-    }
-
-    p:first-of-type {
+    h3 {
       font-weight: $weight-bold;
+      font-size: 1rem;
+      margin-bottom: 0;
     }
 
-    p:last-of-type {
-      font-size: 0.9rem;
+    p {
+      font-size: 1rem;
     }
   }
 }

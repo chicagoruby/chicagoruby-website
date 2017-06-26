@@ -1,9 +1,3 @@
-- name: WisdomGroup
-  link: http://wisdomgroup.com
-  logo: wisdomgroup.png
-- name: ThoughtWorks
-  link: http://thoughtworks.com/
-  logo: thoughtworks.png
 - name: O'Reilly
   link: http://oreilly.com/
   logo: oreilly.png
