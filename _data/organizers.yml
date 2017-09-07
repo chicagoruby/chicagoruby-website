@@ -1,7 +1,7 @@
 current:
-  - name: Ray Hightower
-    link: http://rayhightower.com
-    photo: ray_hightower.jpg
+  - name: Nicole Carpenter
+    link: https://www.meetup.com/ChicagoRuby/members/190520517/
+    photo: nicole_carpenter.jpg
   - name: Ginny Hendry
     link: http://twitter.com/ginnyhendry
     photo: ginny_hendry.jpg
@@ -32,18 +32,12 @@ current:
   - name: Breanna Reader
     link: http://www.meetup.com/ChicagoRuby/members/214943981/
     photo: breanna_reader.jpg
-  - name: Nicole Carpenter
-    link: https://www.meetup.com/ChicagoRuby/members/190520517/
-    photo: nicole_carpenter.jpg
   - name: Ola Giwa
     link: https://twitter.com/AmazingSpeciali
     photo: ola_giwa.jpg
   - name: Daniel Rench
     link: http://www.meetup.com/ChicagoRuby/members/11715177/
     photo: daniel_rench.jpg
-  - name: Stu Gerstein
-    link: http://www.meetup.com/ChicagoRuby/members/13463131/
-    photo: stu_gerstein.jpg
   - name: Martha Amo
     link: https://www.linkedin.com/in/marthamamo/
     photo: martha_amo.jpg
@@ -112,3 +106,7 @@ past:
     link: http://www.meetup.com/ChicagoRuby/members/130532612/
   - name: Louis Knapp
     link: http://www.meetup.com/ChicagoRuby/members/191892448/
+  - name: Stu Gerstein
+    link: http://www.meetup.com/ChicagoRuby/members/13463131/
+  - name: Ray Hightower
+    link: http://rayhightower.com
