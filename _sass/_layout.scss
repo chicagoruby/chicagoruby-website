@@ -1,0 +1,1063 @@
+/* --------------------------
+ *  Base Structure & Layout
+ * -------------------------- */
+
+ /* -- Typography Basics */
+
+a {
+  @include link-transition;
+  color: $action-color;
+  text-decoration: none;
+
+  &:hover {
+   color: $hover-color;
+  }
+}
+
+main svg path {
+  @include link-transition;
+}
+
+p, main li {
+  font-size: 1.25rem;
+}
+
+li p {
+  margin: 0;
+}
+
+/* --- First Level Elements */
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0 auto;
+  font-family: $base-font-family;
+  font-weight: $base-font-weight;
+  line-height: $base-line-height;
+  color: $text-color;
+	overflow-x: hidden;
+}
+
+.page-wrap {
+  margin: 0 auto;
+  max-width: 1030px;
+}
+
+.responsive-trigger {
+  position: absolute;
+  height: 1px;
+
+  @media #{$small-up}  { height: 2px; }
+  @media #{$medium-up} { height: 3px; }
+  @media #{$large-up}  { height: 4px; }
+}
+
+/* --- Page Structure */
+
+body > .page-wrap > header {
+  width: 95%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  position: relative;
+  @include clearfix;
+
+  h1 {
+    margin: 0.5rem 0 0 0;
+
+    @media #{$small-up} {
+      float: left;
+    }
+
+    @media #{$medium-up} {
+      float: none;
+      margin: 0.5rem 0 1rem 0;
+      width: 38.5%;
+    }
+
+    @media #{$large-up} {
+      margin: 1.5rem 0 1rem 0;
+      overflow: hidden;
+      display: inline-block;
+      float: left;
+    }
+  }
+
+  h1 a svg {
+    display: block;
+    margin: 0 auto;
+    width: 18rem;
+
+    @media #{$small-up} {
+      float: left;
+      margin: 0 auto;
+      width: 100%;
+    }
+
+
+  }
+
+  h2 {
+    max-width: 19rem;
+    margin: 0 auto;
+    font-family: $museo-sans-family;
+    text-align: center;
+    line-height: 1.2;
+
+    @media #{$small-up} {
+      max-width: 23rem;
+      margin-top: 1.6rem;
+      font-size: 1.6rem;
+      margin-left: 20rem;
+      text-align: left;
+    }
+
+    @media #{$medium-up} {
+      margin-left: 41%;
+      margin-top: 1.5rem;
+    }
+
+    @media #{$large-up} {
+      font-size: 2rem;
+      margin-top: 2rem;
+      max-width: 25rem;
+    }
+  }
+}
+
+body > .page-wrap > header > nav {
+  clear: both;
+
+  .nav-primary {
+    @include no-bullet;
+  }
+
+  .nav-primary li {
+    float: left;
+    width: 48.75%;
+
+    &:nth-child(odd) {
+      margin-right: 2.5%;
+    }
+
+    @media #{$small-up} {
+      width: 31.66%;
+      margin-right: 2.5%;
+
+      &:nth-child(3n+3) {
+        margin-right: 0;
+      }
+    }
+
+    @media #{$medium-up} {
+      width: 18%;
+
+      &:nth-child(3n+3) {
+        margin-right: 2.5%;
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  .nav-primary li a {
+    display: block;
+    margin: 0.5rem 0;
+    padding: 0.3rem 0;
+    background-color: $action-color;
+    color: $white;
+    font-size: 2rem;
+    font-family: $museo-sans-family;
+    text-align: center;
+
+    @media #{$large-up} {
+      padding: 0.5rem 0;
+      font-size: 2.3rem;
+    }
+
+    &:hover {
+      background-color: $hover-color;
+    }
+  }
+
+  .nav-primary li.active a {
+    background-color: $black;
+  }
+
+  .nav-social {
+    @include no-bullet;
+    width: 47.5%;
+    margin: 0;
+    display: inline-flex;
+    justify-content: space-around;
+
+    @media #{$small-up} {
+      width: 31.66%;
+    }
+
+    @media #{$medium-up} {
+      display: block;
+      position: absolute;
+      top: 1.1rem;
+      right: 1%;
+      width: auto;
+    }
+
+    @media #{$large-up} {
+      right: 2%;
+      top: 4.5rem;
+    }
+
+    li {
+      margin: 1em 2% 0 2%;
+
+      @media #{$medium-up} {
+        margin: 0;
+        line-height: 1;
+        transform: scale(0.9);
+        height: 2.5rem;
+      }
+
+      @media #{$large-up} {
+        float: left;
+        margin-right: 0.7rem;
+        transform: scale(1);
+      }
+
+      &:first-child {
+        margin-left: 0;
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      a:hover svg path {
+        fill: $hover-color;
+      }
+    }
+  }
+}
+
+/* Section Styles */
+
+.section-meetups {
+  background-color: $gray-background;
+  width: 90%;
+  margin: 1rem 2.5% 1rem 0;
+  padding: 1rem 2.5% 0.5rem 5%;
+
+  @media #{$medium-up} {
+    width: 51%;
+    float: left;
+    margin-bottom: 1.5rem;
+  }
+
+  @media #{$large-up} {
+    margin-left: -200%;
+    padding-left: 205%;
+    height: 22rem;
+  }
+
+  > p {
+    margin-top: 0;
+    max-width: 80%;
+
+    @media #{$medium-up} {
+      max-width: 90%;
+    }
+  }
+
+  ul {
+    @include no-bullet;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+
+    @media #{$medium-only} {
+      margin-top: 3rem;
+    }
+
+    @media #{$medium-up} {
+      flex-flow: row wrap;
+    }
+  }
+
+  li {
+    margin-bottom: 1rem;
+    padding-left: 1.4rem;
+    background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBhcmlhLWxhYmVsbGVkYnk9InRpdGxlIj4KICA8dGl0bGU+CiAgICBDYWxlbmRhciBpY29uCiAgPC90aXRsZT4KICA8cGF0aAogICAgZD0iTTEzLjYgMi40aC0uODV2MS43SDEwLjJWMi40SDUuMXYxLjdIMi41NVYyLjRIMS43Qy43NjQgMi40IDAgMy4xNjUgMCA0LjF2MTAuMmMwIC45MzUuNzY0IDEuNyAxLjcgMS43aDExLjljLjkzNSAwIDEuNy0uNzY1IDEuNy0xLjdWNC4xYzAtLjkzNS0uNzY1LTEuNy0xLjctMS43em0wIDExLjlIMS43VjcuNWgxMS45djYuOHpNNC42NzUuN2gtMS43djIuOTc1aDEuN1YuN3ptNy42NSAwaC0xLjd2Mi45NzVoMS43Vi43eiIKICAgIGZpbGw9IiMwMDAiCiAgICBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz4KPC9zdmc+Cg==") no-repeat 0 2.5px;
+
+    @media #{$small-up} {
+      width: 28.665%;
+      margin-right: 2.5%;
+      padding-left: 3%;
+
+      &:nth-child(3n+3) {
+        margin-right: 0;
+      }
+    }
+
+    @media #{$medium-up} {
+      width: 43.75%;
+      margin-bottom: 1.5rem;
+      margin-right: 2.5%;
+      padding-left: 5%;
+      min-height: 6rem;
+
+      &:nth-child(3n+3) {
+        margin-right: 2.5%;
+      }
+
+      &:nth-child(even) {
+        margin-right: 0;
+      }
+    }
+
+    @media #{$large-up} {
+      width: 28%;
+      margin-bottom: 1rem;
+      margin-right: 2%;
+      padding-left: 4%;
+      max-width: auto;
+      min-height: 8rem;
+
+      &:nth-child(even) {
+        margin-right: 2%;
+      }
+
+      &:nth-child(3n+3) {
+        margin-right: 0;
+      }
+    }
+  }
+
+  li p, li a {
+    font-size: 1rem;
+    margin: 0 0 0.2rem 0;
+  }
+
+  .date {
+    @media #{$large-up} {
+      font-size: 0.94rem;
+    }
+  }
+
+  .date, .link {
+    font-weight: $weight-bold;
+  }
+}
+
+.section-map {
+  width: 95%;
+  margin: 1rem auto;
+  line-height: 0;
+
+  @media #{$small-up} {
+    float: left;
+    width: 62.5%;
+    margin: 0 0 0 2.5%;
+  }
+
+  @media #{$medium-up} {
+    float: right;
+    width: 36.5%;
+    margin-right: 2.5%;
+    margin-left: 0;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.section-motto {
+  width: 95%;
+  margin: 1rem auto;
+  padding: 1rem 0;
+  background-color: $black;
+  color: $white;
+  text-align: center;
+
+  @media #{$small-up} {
+    float: left;
+    width: 62.5%;
+    height: 7rem;
+    margin: 1rem 2.5%;
+  }
+
+  @media #{$medium-up} {
+    width: 56%;
+    margin-top: 0;
+  }
+
+  @media #{$large-up} {
+    height: 9.7rem;
+  }
+
+  h2 {
+    margin: 0 auto;
+    max-width: 18rem;
+    font-size: 1.4rem;
+    font-weight: $weight-light;
+
+    @media #{$small-up} {
+      max-width: 22rem;
+      font-size: 1.6rem;
+    }
+
+    @media #{$large-up} {
+      font-size: 2.3rem;
+      max-width: 29.6rem;
+      line-height: 1.3;
+    }
+
+    span {
+      font-weight: $weight-black;
+      display: block;
+    }
+  }
+}
+
+.section-photos-middle {
+  @media #{$small-up} {
+    margin: 1rem 2.5% 1rem 67.5%;
+    width: 30%;
+  }
+
+  @media #{$medium-up} {
+    width: 36.5%;
+    margin-left: 61%;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    clear: right;
+  }
+
+  @media #{$large-up} {
+    position: relative;
+  }
+
+  .photo-a {
+    margin: 1rem 2.5%;
+    width: 95%;
+    height: 15rem;
+    background-repeat: no-repeat;
+    background-image: url("/assets/photos/standing_chat.jpg");
+    background-position: 50% 0%;
+    background-size: 150%;
+
+    @media #{$small-up} {
+      width: 100%;
+      height: 9rem;
+      margin: 0;
+    }
+
+    @media #{$medium-up} {
+      height: 8.9rem;
+      background-position: 40% 13%;
+    }
+
+    @media #{$large-up} {
+      height: 24.4rem;
+      background-size: 160%;
+    }
+  }
+
+  .photo-b {
+    margin: 1rem 2.5%;
+    width: 95%;
+    height: 7rem;
+    background-repeat: no-repeat;
+    background-image: url("/assets/photos/table_chat.jpg");
+    background-position: 50% 38%;
+    background-size: 110%;
+
+    @media #{$small-up} {
+      width: 100%;
+      margin: 1rem 0 0 0;
+      background-size: 380%;
+      background-position: 87% 30%;
+    }
+
+    @media #{$medium-up} {
+      height: 9rem;
+      background-size: 100%;
+      margin-top: 1.5rem;
+    }
+
+    @media #{$large-up} {
+      margin-top: 1rem;
+      height: 11.3rem;
+      position: absolute;
+      left: -37.65rem;
+      top: 12.1rem;
+      width: 153.5%;
+    }
+  }
+}
+
+.section-photos-bottom {
+  clear: both;
+  overflow: hidden;
+  margin-top: -1rem;
+
+  .photo-c {
+    margin: 1rem 1.25% 1rem 2.5%;
+    width: 46.25%;
+    float: left;
+    height: 7rem;
+    background-repeat: no-repeat;
+    background-image: url("/assets/photos/centro_booth.jpg");
+    background-position: 50% 40%;
+    background-size: 110%;
+
+    @media #{$medium-up} {
+      margin: 1.5rem 1.25% 1.5rem 2.5%;
+    }
+  }
+
+  .photo-d {
+    margin: 1rem 2.5% 1rem 1.25%;
+    width: 46.25%;
+    float: right;
+    height: 7rem;
+    background-repeat: no-repeat;
+    background-image: url("/assets/photos/hallway_chat.jpg");
+    background-position: 50% 10%;
+    background-size: 110%;
+
+    @media #{$medium-up} {
+      margin: 1.5rem 1.25% 1.5rem 2.5%;
+    }
+  }
+
+  .photo-e {
+    overflow: hidden;
+    margin: 1rem 2.5%;
+    width: 95%;
+    height: 7rem;
+    background-repeat: no-repeat;
+    background-image: url("/assets/photos/roundtable.jpg");
+    background-position: 50% 30%;
+    background-size: 110%;
+
+    @media #{$medium-up} {
+      margin: 1.5rem 2.5%;
+    }
+  }
+
+  @media #{$small-up} {
+    margin: 0 2.5%;
+
+    .photo-c, .photo-d, .photo-e {
+      float: left;
+      width: 31.66%;
+      height: 8rem;
+      margin-top: 0;
+      margin-bottom: 0;
+      margin-left: 0;
+      margin-right: 2.5%;
+    }
+
+    .photo-e {
+      margin-right: 0;
+    }
+  }
+
+  @media #{$medium-up} {
+    .photo-c, .photo-d, .photo-e {
+      width: 18%;
+      margin-right: 2.5%;
+      background-size: 150%;
+    }
+
+    .photo-f {
+      overflow: hidden;
+      width: 38.5%;
+      height: 8rem;
+      margin-right: 0;
+      background-repeat: no-repeat;
+      background-image: url("/assets/photos/watching_talk.jpg");
+      background-position: 50% 40%;
+      background-size: 110%;
+    }
+  }
+}
+
+.video-conferences-wrap {
+  @media #{$medium-up} {
+    clear: both;
+    background-color: $gray-background;
+    overflow: hidden;
+    margin-left: 2.5%;
+    margin-bottom: 1.5rem;
+  }
+
+  @media #{$large-up} {
+    margin-right: -200%;
+    padding-right: 200%;
+  }
+}
+
+.section-video {
+  background-color: $gray-background;
+  width: 90%;
+  margin: 1rem 0 1rem 2.5%;
+  padding: 1rem 5% 0.5rem 2.5%;
+
+  @media #{$medium-up} {
+    width: 52.5%;
+    float: left;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    padding-right: 2.5%;
+  }
+
+  h2 {
+    margin: 0;
+    font-family: $museo-sans-family;
+    font-size: 1.6rem;
+
+    svg {
+      position: relative;
+      top: 1px;
+    }
+  }
+
+  h3 {
+    margin: 0.2rem 0 0 0;
+    font-family: $museo-sans-family;
+    font-size: 1.8rem;
+    line-height: 1.2;
+  }
+
+  .date {
+    margin: 0;
+    font-size: 1.1rem;
+  }
+
+  .video-embed {
+    margin: 0.5em 0;
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+
+    iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .description {
+    p {
+      font-size: 1rem;
+    }
+
+    p:last-child {
+      margin-bottom: 0.5rem;
+    }
+  }
+}
+
+.more-videos {
+  font-weight: $weight-bold;
+  font-size: 1.2rem;
+
+  svg {
+    position: relative;
+    top: 4px;
+    transform: scale(0.9);
+  }
+}
+
+.section-conferences {
+  background-color: $gray-background;
+  width: 90%;
+  margin: 1rem 2.5% 1rem 0;
+  padding: 1rem 2.5% 0.5rem 5%;
+
+  @media #{$medium-up} {
+    float: left;
+    width: 32.5%;
+    margin-right: 0;
+    margin-left: 2.5%;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding-right: 2.5%;
+    padding-left: 2.5%;
+  }
+
+  > p {
+    font-size: 1.25rem;
+    margin: 0.3rem 0;
+  }
+
+  ul {
+    @include no-bullet;
+    overflow: hidden;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  li a {
+    width: 100%;
+    display: block;
+    margin: 1rem 0;
+    padding: 1rem 0;
+    background-color: $white;
+    border-radius: 5px;
+    text-align: center;
+    color: $black;
+
+    &:hover {
+      color: $black;
+    }
+
+    p {
+      margin: 0 auto;
+      font-size: 1rem;
+      max-width: 19rem;
+    }
+
+    @media #{$small-up} {
+      width: 31.66%;
+      margin: 0 2.5% 0 0;
+      min-height: 9rem;
+      float: left;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      svg {
+        width: 90%;
+      }
+
+      p {
+        margin-top: 0.3rem;
+        padding: 0 0.5rem;
+      }
+    }
+
+    @media #{$medium-up} {
+      width: 100%;
+      margin: 1.5rem 0;
+      min-height: inherit;
+      float: none;
+      display: block;
+    }
+  }
+
+  li:last-child a {
+    margin-right: 0;
+  }
+
+  li.supporter-columns {
+    a {
+      margin-top: 0;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      align-items: center;
+
+      @media #{$small-only} {
+        padding: 0.61em 0;
+      }
+    }
+
+    svg {
+      height: 90px;
+      margin-left: 0.5em;
+
+      @media #{$small-up} {
+        flex-shrink: 1;
+      }
+
+      @media #{$medium-up} {
+        flex-shrink: 2;
+      }
+    }
+
+    .description {
+      @media #{$small-up} {
+        flex-shrink: 2;
+      }
+
+      @media #{$medium-up} {
+        flex-shrink: 1;
+      }
+    }
+
+    h3 {
+      font-weight: $weight-bold;
+      font-size: 1rem;
+      margin-bottom: 0;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+  }
+}
+
+body > .page-wrap > footer {
+  width: 90%;
+  margin: 1rem 0;
+  padding: 0 5% 0.5rem 5%;
+  overflow: hidden;
+
+  p {
+    font-size: 1rem;
+  }
+
+  .section-supporters {
+    @media #{$small-up} {
+      width: 45%;
+      float: left;
+    }
+
+    p {
+      margin-top: 0;
+    }
+
+    ul {
+      @include no-bullet;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      align-items: center;
+      margin: 0;
+
+      li a {
+        display: block;
+        width: 6rem;
+        margin-right: 1rem;
+        margin-bottom: 0.4rem;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .copyright {
+    @media #{$small-up} {
+      margin: 0;
+      width: 50%;
+      float: right;
+      text-align: right;
+    }
+  }
+}
+
+/* --------------------------
+ *  Secondary Pages
+ * -------------------------- */
+
+.secondary-page {
+  width: 95%;
+  margin: 1rem 2.5%;
+  position: relative;
+}
+
+.secondary-page-simple {
+  width: 90%;
+  padding: 0 2.5%;
+
+  @media #{$medium-up} {
+    width: 73%;
+  }
+}
+
+ /* -- About */
+
+.friday-hug {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0;
+
+  @media #{$medium-up} {
+    float: left;
+    width: 59%;
+  }
+}
+
+.section-about, .section-about-history {
+  width: 95%;
+  padding: 0 2.5%;
+
+  @media #{$medium-up} {
+    float: left;
+    width: 54%;
+  }
+}
+
+.section-about-conferences {
+  float: left;
+  width: 95%;
+  padding: 0 2.5%;
+}
+
+.section-organizers {
+  @include gray-box-right;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-left: 0;
+
+  @media #{$medium-up} {
+    margin-left: 61.5%;
+  }
+
+  h1 {
+    margin-top: 0;
+  }
+
+  ul {
+    @include no-bullet;
+    overflow: hidden;
+    margin-left: -2%;
+
+    li {
+      float: left;
+      margin-bottom: 1rem;
+      width: 21%;
+      padding-left: 2%;
+      padding-right: 2%;
+      min-height: 8rem;
+      text-align: center;
+
+      @media #{$small-up} {
+        width: 8.5%;
+        padding-left: 2%;
+        padding-right: 2%;
+        min-height: 6.5rem;
+      }
+
+      @media #{$medium-up} {
+        width: 21%;
+        padding-left: 2%;
+        padding-right: 2%;
+        min-height: 7.5rem;
+      }
+    }
+
+    figure {
+      margin: 0;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      border-radius: 100px;
+    }
+
+    figcaption {
+      font-size: 0.8rem;
+    }
+  }
+
+  .alumni {
+    font-size: 0.9rem;
+    font-weight: $weight-bold;
+  }
+}
+
+.section-about-conferences {
+  clear: both;
+}
+
+/* -- Videos */
+
+.section-video-index {
+  background-color: transparent;
+  margin-left: 0;
+  margin-bottom: 1.5rem;
+  width: 95%;
+
+  @media #{$medium-up} {
+    width: 54%;
+  }
+
+  .speaker-bio {
+    h4 {
+      margin-bottom: 0;
+    }
+
+    h4 + p {
+      margin-top: 0;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+  }
+}
+
+.section-more-videos {
+  @include gray-box-right;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-left: 0;
+
+  @media #{$medium-up} {
+    margin-left: 61.5%;
+  }
+
+  h2 {
+    margin-top: 0;
+  }
+
+  ul {
+    @include no-bullet;
+
+    li {
+      overflow: hidden;
+      margin-bottom: 1rem;
+    }
+
+    li .thumbnail {
+      width: 7rem;
+      float: left;
+    }
+
+    li .link {
+      font-weight: $weight-bold;
+      font-size: 0.9rem;
+      line-height: 1.3;
+      padding-bottom: 0.3rem;
+      display: block;
+    }
+
+    li .date {
+      font-weight: $weight-light;
+      font-size: 0.8rem;
+    }
+
+    li .link, li .date {
+      padding-left: 7.5rem;
+    }
+  }
+}
+
+.section-videos-archive {
+  background-color: transparent;
+
+  @media #{$medium-up} {
+    margin-left: 0;
+  }
+}

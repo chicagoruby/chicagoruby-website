@@ -1,0 +1,12 @@
+---
+title: Videos
+permalink: "/videos/"
+---
+
+{% assign video = site.videos.last %}
+<section class="section-video section-video-index">
+  <h2>{% include svg/icon-video.svg %} Latest Event Video</h2>
+  {% include videos-embed.html %}
+</section>
+
+{% include videos-more.html %}

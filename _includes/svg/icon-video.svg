@@ -1,0 +1,7 @@
+<svg width="28" height="20" viewBox="0 0 28 20" xmlns="http://www.w3.org/2000/svg" aria-labelledby="title">
+  <title>Video icon</title>
+  <path
+    d="M28 2.8V1.117C28 .5 27.5 0 26.88 0H1.12C.5 0 0 .5 0 1.118v1.68h2.8v2.8H0v2.8h2.8v2.798H0v2.8h2.8v2.798H0v1.678c0 .618.5 1.12 1.12 1.12h25.76c.62 0 1.12-.502 1.12-1.12v-1.678h-2.8v-2.8H28v-2.798h-2.8v-2.8H28V5.6h-2.8v-2.8H28zM11.2 13.994V5.598l7 4.198-7 4.2z"
+    fill="#000"
+    fill-rule="evenodd"/>
+</svg>

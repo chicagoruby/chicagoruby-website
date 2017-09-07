@@ -1,0 +1,37 @@
+<section class="section-photos-bottom">
+  <div class="photo-c"></div>
+  <div class="photo-d"></div>
+  <div class="photo-e"></div>
+  <div class="photo-f"></div>
+</section>
+
+<footer>
+  <section class="section-supporters">
+    <p>Thank you to our generous supporters!</p>
+
+    <ul>
+      {% for supporter in site.data.supporters %}
+      <li>
+        <a href="{{ supporter.link }}">
+          <img src="/assets/supporters/{{ supporter.logo }}" alt="{{ supporter.name }}">
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <p class="copyright">Copyright © 2017 ChicagoRuby.<br>
+    <a href="/code-of-conduct">Code of Conduct</a>.
+    <a href="http://www.meetup.com/ChicagoRuby/">ChicagoRuby on Meetup.</a>
+  </p>
+</footer>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-330946-13', 'auto');
+  ga('send', 'pageview');
+</script>

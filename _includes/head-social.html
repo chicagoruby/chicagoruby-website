@@ -1,0 +1,31 @@
+<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+<meta property="fb:app_id" content="1733121593593321" />
+<meta name="twitter:site" content="@{{ site.twitter_username }}">
+
+{% if page.social-image %}
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="{{ site.url }}/assets/social/{{ page.social-image }}">
+  <meta property="og:image" content="{{ site.url }}/assets/social/{{ page.social-image }}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+{% else %}
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:image" content="{{ site.url }}/assets/favicons/apple-touch-icon-180x180.png">
+{% endif %}
+
+{% if page.social-title %}
+  <meta property="og:title" content="{{ page.social-title }}">
+  <meta name="twitter:title" content="{{ page.social-title }}">
+{% else %}
+  <meta property="og:title" content="{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}">
+{% endif %}
+
+{% if page.social-description %}
+  <meta property="og:description" content="{{ page.social-description }}">
+  <meta name="twitter:description" content="{{ page.social-description }}">
+{% else %}
+  <meta property="og:description" content="{{ site.description }}">
+  <meta name="twitter:description" content="{{ site.description }}">
+{% endif %}

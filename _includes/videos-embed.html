@@ -1,0 +1,21 @@
+<h3><a href="{{ video.url }}">{{ video.title }} by {{ video.speaker }}</a></h3>
+<p class="date">Recorded {{ video.date | date: '%B %d, %Y' }} at {{ video.event }}</p>
+
+<div class="video-embed">
+  {% if video.youtube_id %}
+    <iframe class="youtube_embed"
+      src="https://www.youtube.com/embed/{{ video.youtube_id }}"
+      frameborder="0" allowfullscreen>
+    </iframe>
+  {% else %}
+    <iframe class="vimeo_embed"
+      src="https://player.vimeo.com/video/{{ video.vimeo_id }}"
+      frameborder="0" webkitAllowFullScreen
+      mozallowfullscreen allowFullScreen>
+    </iframe>
+  {% endif %}
+</div>
+
+<div class="description">
+  {{ video.content | markdownify }}
+</div>

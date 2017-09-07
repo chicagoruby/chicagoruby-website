@@ -1,0 +1,101 @@
+---
+layout: default
+social-image: home-2016-09-06.png
+---
+
+<script>
+  function formatEvent(event) {
+    var date = moment(event.time).format('MMM D - ddd h:mma');
+    var name = event.name.replace("ChicagoRuby: ", "");
+    var url = event.link;
+
+    insertHTML(name, date, url);
+  }
+
+  function insertHTML(name, date, url) {
+    $(".section-meetups ul").append(
+      "<li><p class=\"date\">" + date + "</p><p class=\"name\">" + name + "</p><a class=\"link\" href=\"" + url + "\">Details &amp; RSVP</a></li>"
+    );
+  }
+
+  $(function() {
+    $.getJSON("https://api.meetup.com/chicagoruby/events?photo-host=public&page=20&sig_id=4954727&sig=d9fb93fddae45eb66b8028734ae3e58fb3b1e786&callback=?", function(data) {
+      var events = data.data.slice(0,6);
+
+      for (var i = 0, l = events.length; i < l; i++) {
+        var event = events[i];
+        formatEvent(event);
+      }
+
+      $(".loading").remove();
+    });
+  });
+</script>
+
+<section class="section-meetups">
+  <p>ChicagoRuby meets throughout Chicago + suburbs. Want to speak at ChicagoRuby? <a href="/about/speaker-guidelines">Speaker Guidelines</a>.</p>
+
+  <ul>
+    <div class="loading">Loading events...</div>
+  </ul>
+</section>
+
+<section class="section-map">
+  <img src="/assets/graphics/map.png" alt="Map of ChicagoRuby locations throughout the Chicagoland area">
+</section>
+
+<section class="section-motto">
+  <h2>When smart people challenge each other to grow,
+    <span> great things happen.</span></h2>
+</section>
+
+<section class="section-photos-middle">
+  <div class="photo-a"></div>
+  <div class="photo-b"></div>
+</section>
+
+<div class="video-conferences-wrap">
+{% assign video = site.videos.last %}
+<section class="section-video">
+  <h2>{% include svg/icon-video.svg %} Latest Event Video</h2>
+
+  {% include videos-embed.html %}
+
+  <a class="more-videos" href="/videos">
+    {% include svg/icon-arrow.svg %} More Videos
+  </a>
+</section>
+
+<section class="section-conferences">
+  <p>Dive deeper with more events.</p>
+
+  <ul>
+    <li>
+      <a href="https://windycityrails.com">
+        {% include svg/logo-windycityrails.svg %}
+        <p>An annual gathering for all who are
+          passionate about Ruby on Rails.</p>
+      </a>
+    </li>
+    <li class="supporter-columns">
+      <a href="https://scna.softwarecraftsmanship.com">
+        {% include svg/logo-scna.svg %}
+        <div class="description">
+          <p>A software conerence for anyone looking
+          to improve their craft, their community,
+          and themselves.</p>
+        </div>
+      </a>
+    </li>
+    <li class="supporter-columns">
+      <a href="http://8thlight.com">
+        {% include svg/logo-8thlight.svg %}
+        <div class="description">
+          <h3>ChicagoRuby is supported by 8th Light.</h3>
+          <p>Software is our <i>craft</i>.&#8482;</p>
+        </div>
+      </a>
+    </li>
+  </ul>
+</section>
+</div>

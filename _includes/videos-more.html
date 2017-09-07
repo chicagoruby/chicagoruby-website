@@ -1,0 +1,14 @@
+<section class="section-more-videos">
+  <h2>More Videos</h2>
+
+  <ul>
+    {% assign sorted_videos = site.videos | sort:"date" | reverse %}
+    {% for video in sorted_videos limit:5 %}
+      {% include videos-list.html %}
+    {% endfor %}
+  </ul>
+
+  <a class="more-videos" href="/videos/archive">
+    {% include svg/icon-arrow.svg %} Full Video Archive
+  </a>
+</section>
