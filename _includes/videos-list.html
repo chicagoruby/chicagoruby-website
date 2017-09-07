@@ -1,0 +1,14 @@
+<script type="text/javascript">
+  {% unless video.youtube_id %}
+    $.getJSON("https://vimeo.com/api/v2/video/" + {{ video.vimeo_id }} + ".json", function(data) {
+      $('<a href="{{ video.url }}"><img class="thumbnail" src="' + data[0].thumbnail_medium + '"></a>').insertBefore("#vimeo_{{ video.vimeo_id }} .link");
+    });
+  {% endunless %}
+</script>
+<li id="{% if video.vimeo_id %}vimeo_{{ video.vimeo_id }}{% endif %}">
+  {% if video.youtube_id %}
+    <a href="{{ video.url }}"><img class="thumbnail" src="https://img.youtube.com/vi/{{ video.youtube_id }}/default.jpg"></a>
+  {% endif %}
+  <a class="link" href="{{ video.url }}">{{ video.title }} by {{ video.speaker }}</a>
+  <p class="date">{{ video.date | date: '%B %d, %Y' }}</p>
+</li>

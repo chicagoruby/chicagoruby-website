@@ -1,0 +1,15 @@
+---
+title: Video Archive
+permalink: "/videos/archive"
+---
+
+<section class="section-more-videos section-videos-archive">
+  <h1>Complete Video Archive</h1>
+
+  <ul>
+    {% assign sorted_videos = site.videos | sort:"date" | reverse %}
+    {% for video in sorted_videos %}
+      {% include videos-list.html %}
+    {% endfor %}
+  </ul>
+</section>
