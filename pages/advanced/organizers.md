@@ -37,4 +37,5 @@ permalink: "/organizers/"
 <section class="section-about-conferences">
   <h1>Annual Conferences</h1>
 
-  <p>In addition to our monthly events, ChicagoRuby has produced conferences in multiple technical areas, including NoSQL databases, mobile, and IoT. Our longest running conference, <a href="https://windycityrails.com">WindyCityRails</a>, was launched in 2008 to fill what had been a void of Ruby conferences in the midwest.</section>
+  <p>In addition to our monthly events, ChicagoRuby has produced conferences in multiple technical areas, including NoSQL databases, mobile, and IoT. Our longest running conference, <a href="https://windycityrails.com">WindyCityRails</a>, was launched in 2008 to fill what had been a void of Ruby conferences in the midwest.</p>
+</section>
