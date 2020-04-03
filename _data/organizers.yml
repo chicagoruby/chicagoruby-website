@@ -2,6 +2,13 @@ current:
   - name: Nicole Carpenter
     link: https://www.meetup.com/ChicagoRuby/members/190520517/
     photo: nicole_carpenter.jpg
+  - name: Doug Harman
+    link: http://www.meetup.com/ChicagoRuby/members/61690512/
+    photo: doug_harman.jpg
+  - name: Daniel Rench
+    link: http://www.meetup.com/ChicagoRuby/members/11715177/
+    photo: daniel_rench.jpg
+past:
   - name: Ginny Hendry
     link: http://twitter.com/ginnyhendry
     photo: ginny_hendry.jpg
@@ -11,9 +18,6 @@ current:
   - name: Marty Lavin
     link: http://www.meetup.com/ChicagoRuby/members/1345203/
     photo: marty_lavin.jpg
-  - name: Doug Harman
-    link: http://www.meetup.com/ChicagoRuby/members/61690512/
-    photo: doug_harman.jpg
   - name: Laurence Drake
     link: http://www.meetup.com/ChicagoRuby/members/180942542/
     photo: laurence_drake.jpg
@@ -35,13 +39,9 @@ current:
   - name: Ola Giwa
     link: https://twitter.com/AmazingSpeciali
     photo: ola_giwa.jpg
-  - name: Daniel Rench
-    link: http://www.meetup.com/ChicagoRuby/members/11715177/
-    photo: daniel_rench.jpg
   - name: Martha Amo
     link: https://www.linkedin.com/in/marthamamo/
     photo: martha_amo.jpg
-past:
   - name: Steve Rummel
     link: http://www.meetup.com/ChicagoRuby/members/3035910/
   - name: Ryan Platte (Chirb)
