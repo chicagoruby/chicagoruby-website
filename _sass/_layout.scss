@@ -907,12 +907,6 @@ body > .page-wrap > footer {
   }
 }
 
-.section-about-conferences {
-  float: left;
-  width: 95%;
-  padding: 0 2.5%;
-}
-
 .section-organizers {
   @include gray-box-right;
   padding-top: 0.5rem;
@@ -975,10 +969,6 @@ body > .page-wrap > footer {
     font-size: 0.9rem;
     font-weight: $weight-bold;
   }
-}
-
-.section-about-conferences {
-  clear: both;
 }
 
 /* -- Videos */
