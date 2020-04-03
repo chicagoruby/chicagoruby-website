@@ -18,6 +18,7 @@ The following list of Ruby on Rails resources was curated by a ChicagoRuby membe
 - [Ruby on Rails API](http://api.rubyonrails.org/)
 - [RubyGems](http://rubygems.org/)
 - [The Ruby Toolbox](https://www.ruby-toolbox.com/categories/api_clients)
+- [Software Programming and Coding Glossary for Kids](https://www.smartadvocate.com/News/Blog/software-programming-and-coding-glossary-for-kids)
 
 ## Blogs
 
