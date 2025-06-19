@@ -10,5 +10,3 @@ speaker_bio: Joel Hawksley is a Staff Engineer at GitHub, creator of ViewCompone
 ---
 
 GitHub’s Joel Hawksley reveals five years of scaling UI in Rails apps, while Mozilla’s Chelsea Troy cuts through the GenAI hype to show its true impact on developer productivity.
-
-///unstage file
