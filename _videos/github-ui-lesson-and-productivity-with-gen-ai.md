@@ -1,5 +1,5 @@
 ---
-title: GitHub UI Lesson by Joel Hawksley | Productivity with GenAI by Chelsea Troy
+title: GitHub UI Lesson | Productivity with GenAI
 date: 2025-05-07 00:00:00 Z
 youtube_id: SQXIrKHpv8A
 event: Avant Chicago
@@ -10,3 +10,5 @@ speaker_bio: Joel Hawksley is a Staff Engineer at GitHub, creator of ViewCompone
 ---
 
 GitHub’s Joel Hawksley reveals five years of scaling UI in Rails apps, while Mozilla’s Chelsea Troy cuts through the GenAI hype to show its true impact on developer productivity.
+
+///unstage file
