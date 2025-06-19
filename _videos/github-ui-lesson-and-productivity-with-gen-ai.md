@@ -1,7 +1,7 @@
 ---
 title: GitHub UI Lesson by Joel Hawksley | Productivity with GenAI by Chelsea Troy
 date: 2025-05-07 00:00:00 Z
-youtube_id: SQXIrKHpv8A?si=yfnWSVg2U2Pv7afC
+youtube_id: SQXIrKHpv8A
 event: Avant Chicago
 teaser: The presentations cover strategies to build and maintain scalable, accessible Rails UI systems, and a practical framework for harnessing GenAI’s productivity benefits. 
 speaker: Joel Hawksley and Chelsea Troy
