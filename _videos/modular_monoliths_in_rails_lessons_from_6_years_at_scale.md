@@ -1,5 +1,5 @@
 ---
-title: Modular Monoliths in Rails - Lessons from 6+ Years at Scale
+title: "Modular Monoliths in Rails: Lessons from 6+ Years at Scale"
 date: 2025-04-04 00:00:00 Z
 youtube_id: Pm2qC7__MZQ
 event: AlphaSense
