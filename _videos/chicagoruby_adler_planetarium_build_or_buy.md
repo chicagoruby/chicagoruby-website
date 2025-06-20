@@ -2,7 +2,7 @@
 title: Build or Buy? | Does Ruby Love Me Back?
 date: 2025-03-05 00:00:00 Z
 youtube_id: tA8Omrq0Px4
-event: Adler Planetarium
+event: ChicagoRuby at the Adler Planetarium
 teaser: Two talks exploring whether to build or buy your next solution and what makes Ruby uniquely expressive.
 speaker: Ifat Ribon and Noel Rappin
 speaker_bio: >
