@@ -5,6 +5,9 @@ current:
   - name: Anton Tkachov
     link: https://www.linkedin.com/in/anton-tkachov/
     photo: anton_tkachov.jpg
+  - name: Dan Heintzelman
+    link: https://www.linkedin.com/in/danheintzelman/
+    photo: dan_heintzelman.jpg
 past:
   - name: Nicole Carpenter
     link: https://www.meetup.com/ChicagoRuby/members/190520517/
