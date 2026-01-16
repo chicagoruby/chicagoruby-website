@@ -19,3 +19,14 @@ This site has two Jekyll Data Files, stored in YAML format.
 
 * **Supporter Logos:** 400 pixels wide
 * **Organizer Photos:** 400 pixels squared
+
+## Setup instructions
+
+* install Ruby:
+  as of January 2026 the earliest version of Ruby still mantained is 3.2.2
+* install Jekyll:
+  gem install jekyll bundler
+* run the website locally: 
+  bundle exec jekyll serve
+* browse to: 
+  http://localhost:4000
