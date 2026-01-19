@@ -22,11 +22,15 @@ This site has two Jekyll Data Files, stored in YAML format.
 
 ## Setup instructions
 
-* install Ruby:
+* Install Ruby:
+
   as of January 2026 the earliest version of Ruby still mantained is 3.2.2
-* install Jekyll:
-  gem install jekyll bundler
+* Install Jekyll:
+
+  `gem install jekyll bundler`
 * run the website locally: 
-  bundle exec jekyll serve
-* browse to: 
+
+  `bundle exec jekyll serve`
+* Browse to: 
+
   http://localhost:4000
