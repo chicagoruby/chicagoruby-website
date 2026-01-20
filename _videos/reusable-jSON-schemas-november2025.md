@@ -3,7 +3,7 @@ title: Reusable JSON Schemas | Hotwire Your UX
 date: 2025-11-04 00:00:00 Z
 youtube_id: aeLcOW4Cfe4
 event: Cisco Chicago
-teaser: This month’s speakers focus on leveraging schemas across the entire Rails stack and on how Hotwire delivers a better user experience
+teaser: This month’s speakers focus on leveraging schemas across the entire Rails stack and on how Hotwire delivers a better user experience.
 speaker: Andy Andrea and Patrick McSweeny
 speaker_bio: Andy Andreea is a lead software engineer at Panorama Education. Patrick McSweeny is a product engineer at William Davidson Institute. 
 ---

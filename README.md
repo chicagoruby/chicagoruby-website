@@ -28,7 +28,7 @@ This site has two Jekyll Data Files, stored in YAML format.
 * Install Jekyll:
 
   `gem install jekyll bundler`
-* run the website locally: 
+* Run the website locally: 
 
   `bundle exec jekyll serve`
 * Browse to: 
