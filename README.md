@@ -24,13 +24,13 @@ This site has two Jekyll Data Files, stored in YAML format.
 
 * Install Ruby:
 
-  as of January 2026 the earliest version of Ruby still mantained is 3.2.2
+  As of January 2026 the earliest version of Ruby still maintained is 3.2.2, I was not able to install an earlier version. Jekyll and this project will work with 3.2.2.
 * Install Jekyll:
 
   `gem install jekyll bundler`
 * Run the website locally: 
 
-  `bundle exec jekyll serve`
+  `jekyll serve`
 * Browse to: 
 
   http://localhost:4000
