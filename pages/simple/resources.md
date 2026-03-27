@@ -90,7 +90,6 @@ These are books I use as references. Do NOT buy Kindle editions. When you copy /
 - By far, the best resource / place to start learning ROR is with [Dave Jones, YouTube Channel](https://www.youtube.com/user/lockersoft) - Ruby on Rails 4.0 Lectures (29), Ruby Programming Lectures, Introduction to Ruby Programming (21), Ruby Programming - II (21)
 - Railscasts, Ruby on Rails Screencasts <http://railscasts.com/>
 - Conference: [Ancient City Ruby](https://www.youtube.com/user/Hashrocket)
-- Conference: [WindyCityRails](http://www.windycityrails.org/videos/2013/)
 - Conference: RailsConf, YouTube, search for "RailsConf XXXX", also search Confreaks
 
 ## Free Newsletters
