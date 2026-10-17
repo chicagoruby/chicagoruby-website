@@ -8,10 +8,14 @@ current:
   - name: Dan Heintzelman
     link: https://www.linkedin.com/in/danheintzelman/
     photo: dan_heintzelman.jpg
+  - name: Josh Austin
+    link: https://www.linkedin.com/in/joshaustintech/
+    photo: josh_austin.jpg
+
+past:
   - name: Jonathan Farias
     link: https://www.linkedin.com/in/jonathanfarias-tech/
     photo: jonathan_farias.jpg
-past:
   - name: Nicole Carpenter
     link: https://www.meetup.com/ChicagoRuby/members/190520517/
     photo: nicole_carpenter.jpg
