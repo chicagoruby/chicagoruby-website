@@ -2,7 +2,7 @@
 title: "June 2026: AI, Testing and Code Quality"
 date: 2026-05-07 00:00:00 Z
 youtube_id: wjl_Z8P-GVY
-event: AlphaSense
+event: Chime
 speaker: Ifat Ribon, Fito von Zastrow, Noel Rappin
 speaker_bio: |
   Ifat is a Principal Architect at LaunchPad Lab in Chicago. She enjoys untangling complex problems, finding the right words for hard things, and helping teams make confident technical decisions. She’s a big fan of good abstractions, long runs along the lakeshore, and finding the signal in the noise.
